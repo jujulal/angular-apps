@@ -8,14 +8,16 @@ import {AuthenticationService} from '../authentication.service';
   providers: [AuthenticationService]
 })
 export class AuthenticationComponent implements OnInit {
-  username = 'AA';
   isLoggedIn = false;
   message: string;
   constructor(private authenticationService: AuthenticationService) { }
 
   ngOnInit() {
-    this.isLoggedIn = this.authenticationService.isLoggedIn(this.username);
+    /*this.isLoggedIn = this.authenticationService.isLoggedIn(this.username);*/
     this.message = this.authenticationService.getMessage();
   }
 
+  login(username: string, password: string) {
+    this.isLoggedIn = this.authenticationService.isLoggedIn(username, password);
+  }
 }

@@ -1,7 +1,12 @@
 <p>
   Login component
-  {{username}} - {{isLoggedIn}}
-</p>
-<p>
-  {{message}}
+   - {{isLoggedIn}}
+  <br/>
+  <input type="text" #username/>
+  <br/>
+  <input type="password" #password/>
+  <br/>
+  <button (click)="login(username.value, password.value)">Login</button>
+  <br/>
+  username: {{username.value}} - password: {{password.value}}
 </p>
