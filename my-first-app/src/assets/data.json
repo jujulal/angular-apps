@@ -2,21 +2,21 @@
     {
         "id": 1, 
         "fileName":"angularjs.pdf", 
-        "path":"",
+        "path":"assets/files/angularjs.pdf",
         "fileType":"pdf",
         "size":0
     },
     {
         "id": 2, 
         "fileName":"C++ balagurusamy.pdf", 
-        "path":"",
+        "path":"assets/files/C++ balagurusamy.pdf",
         "fileType":"pdf",
         "size":0
     },
     {
         "id": 1, 
         "fileName":"spring-boot-reference.pdf", 
-        "path":"",
+        "path":"assets/files/spring-boot-reference.pdf",
         "fileType":"pdf",
         "size":0
     }

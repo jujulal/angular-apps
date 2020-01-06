@@ -1,6 +1,6 @@
 <div>
     <h3>File list</h3>
     <ul>
-        <li *ngFor="let file of files">{{file.fileName}}</li>
+        <li *ngFor="let file of files" (click)="openDialog()"><a >{{file.fileName}}</a></li>
     </ul>
-</div>>
+</div>
